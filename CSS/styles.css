@@ -32,7 +32,7 @@ header .list-group-item {
   background-color: #a2d3be;
 }
 header .list-group-item :hover {
-  background-color: #2ff19d;
+  border-bottom: 2px solid #6cbfa8;
 }
 
 /* Main */
@@ -96,6 +96,62 @@ footer .redes a {
 }
 .productos .img-fluid:hover {
   border: solid 2px rgb(31, 209, 31);
+}
+
+/* Contacto */
+.contacto {
+  text-align: center;
+  align-items: center;
+}
+
+/* Local */
+.local {
+  text-align: center;
+  align-items: center;
+}
+.local iframe {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .flex-fill {
+    border-right: 1px solid #ffffff;
+  }
+  .flex-fill ul {
+    flex-direction: column;
+  }
+  footer .diseño {
+    position: relative;
+    bottom: 20px;
+  }
+  footer .redes img {
+    width: 30px;
+    padding-top: 10px;
+  }
+  footer .horario {
+    position: relative;
+    left: 5px;
+  }
+  .main-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-div p {
+    width: auto;
+    text-align: center;
+  }
+  .main-div img {
+    width: 70%;
+    margin-bottom: 2%;
+  }
+  .productos .row {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .productos .row .card {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
